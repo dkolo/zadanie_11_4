@@ -10,3 +10,6 @@ var iPhone6s = new Phone("Apple", 2250, "silver"),
 	samsungGalaxyS6 = new Phone("Samsung", 1199, "black"),
 	onePlusOne = new Phone("OnePlus", 1299, "black");
 
+iPhone6s.printInfo();
+samsungGalaxyS6.printInfo();
+onePlusOne.printInfo();
