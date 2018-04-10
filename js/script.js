@@ -16,7 +16,7 @@ samsungGalaxyS6.printInfo();
 onePlusOne.printInfo();
 
 Phone.prototype.showPrice = function() {
-	alert("The lowest price for " + this.color + " " + this.brand + " given by the price comparision engine is " + this.price + ".");
+	alert("The lowest price for " + this.color + " " + this.brand + " found by the price comparision engine is " + this.price + ".");
 };
 
 iPhone6s.showPrice();
